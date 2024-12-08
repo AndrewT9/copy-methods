@@ -1,2 +1,2 @@
 # copy-methods
-Comparing mathods copy array
+Comparing methods to copy an array
