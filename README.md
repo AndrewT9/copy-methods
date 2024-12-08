@@ -2,9 +2,9 @@
 This document compares the performance of various methods used to copy arrays in JavaScript. The methods are evaluated based on their execution times and efficiency. The times are measured in terms of the "complexity" (denoted as c) with different factors.
 
 ## Device specification:
-Processor: 11th Gen Intel(R) Core(TM) i7-11370H @ 3.30GHz   3.30 GHz
-RAM: 16.0 GB
-System type: 64-bit operating system, x64-based processor
+Processor: 11th Gen Intel(R) Core(TM) i7-11370H @ 3.30GHz   3.30 GHz <br>
+RAM: 16.0 GB <br>
+System type: 64-bit operating system, x64-based processor <br>
 
 ```javascript
 
@@ -39,7 +39,7 @@ const m = JSON.parse(JSON.stringify(arr));
 
 // Using slice() Method - Time 1.3c - 5.9c
 const m = arr.slice();
-
+```
 
 # Summary of Performance
 
