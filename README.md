@@ -1,5 +1,6 @@
 # Performance Comparison of Array Copying Methods
 This document compares the performance of various methods used to copy arrays in JavaScript. The methods are evaluated based on their execution times and efficiency. The times are measured in terms of the "complexity" (denoted as c) with different factors.
+Used array with length 10.000 items for showing result. 
 
 ## Device specification:
 Processor: 11th Gen Intel(R) Core(TM) i7-11370H @ 3.30GHz   3.30 GHz <br>
